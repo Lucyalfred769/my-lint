@@ -1,9 +1,9 @@
 def greet(name):
     print("Hello, " + name)
 
-    if name == "Alice":
-        print("Welcome, Alice!")
+    if name == "Alfred":
+        print("Welcome, Alfred!")
     else:
-    print("Welcome, guest!")
+        print("Welcome, guest!")  # Indentation mistake fixed
 
-unused_variable = 42
+# Removed unused variable to pass lint check
